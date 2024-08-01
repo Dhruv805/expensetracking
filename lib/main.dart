@@ -1,10 +1,9 @@
 import 'package:expenses_traking/pages/add_page/add_screen.dart';
-import 'package:expenses_traking/pages/home_page/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+  runApp(const MyApp());  
 }
 
 class MyApp extends StatelessWidget {

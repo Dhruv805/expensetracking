@@ -2,7 +2,6 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:expenses_traking/pages/home_page/home_screen.dart';
-import 'package:expenses_traking/widget/date%7C_time_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
@@ -323,7 +322,7 @@ class _AddScreenState extends State<AddScreen> {
                                   children: [
                                     Text('${expense.description}'),
                                     Text('${expense.amount.toString()}'),
-                                    Text(DateTimeUtils.getExpensesDate(expense.date ?? DateTime.now())),
+                                    // Text(DateTimeUtils.getExpensesDate(expense.date ?? DateTime.now())),
                                   ],
                                 ),
                               ],
